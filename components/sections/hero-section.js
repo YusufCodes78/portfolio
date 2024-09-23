@@ -2,15 +2,9 @@
 import React from "react";
 import { ShootingStars } from "@/components/effects/shooting-stars";
 import { SparklesCore } from "@/components/effects/sparkles";
-import { Navbar } from "@/components/navbar/navbar";
 import { motion } from "framer-motion";
-import BookDemoButton from "../ui/book-demo-button";
-import { AuroraBackground } from "../effects/aurora-background";
-import { FlipWords } from "../ui/flip-words";
 import { BsStars } from "react-icons/bs";
 import { IoColorWandSharp } from "react-icons/io5";
-import { TextHoverEffect } from "../effects/text-hover-effect";
-import Particles from "@/components/magicui/particles";
 import { Spotlight } from "../effects/spotlight";
 
 export function HeroSection() {
@@ -21,7 +15,6 @@ export function HeroSection() {
     >
       <Spotlight className="animate-spotlight1 -top-32 left-0 md:left-60 md:-top-20" />
 
-      {/* <Navbar className="md:bottom-2" /> */}
       <div className="max-h-screen absolute flex flex-col md:top-auto top-20 z-20">
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}

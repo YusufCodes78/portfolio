@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
-import { TextHoverEffect } from "../effects/text-hover-effect";
 
 const languages = [
   {

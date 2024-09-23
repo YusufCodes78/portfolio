@@ -1,5 +1,4 @@
 import React, { useCallback } from "react";
-import { Boxes } from "../effects/background-boxes";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -14,8 +13,6 @@ const ContactSection = () => {
     });
   }, []);
   return (
-    // <div className="w-full h-[50vh] p-26 dark:bg-[#0b011d] bg-white  dark:bg-dot-white/[0.3] bg-dot-black/[0.2] relative flex flex-col items-center justify-center">
-    //   {/* Radial gradient for the container to give a faded look */}
     <div
       id="Contact"
       className="w-full relative dark:bg-[#0b011d] bg-[#60478b] dark:bg-dot-white/[0.3] bg-dot-white/[0.5] pb-14 mx-auto md:px-28"
