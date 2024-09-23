@@ -133,6 +133,8 @@ const SkillCard = ({ img, name, type }) => {
           className="rounded-full p-1 w-8 h-8 object-scale-down bg-white"
           alt="icons"
           src={img}
+          width={32}
+          height={32}
         />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium text-white">

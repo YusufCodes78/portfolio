@@ -27,7 +27,7 @@ export function HeroSection() {
           }}
           className=""
         >
-          <h1 className="font-bold md:text-9xl text-8xl text-center font-outline-2 dark:text-white/60 text-[#41175f] md:py-10 pb-20 py-10 drop-shadow-[0px_10px_10px_rgba(191,100,255,0.5)]">
+          <h1 className="font-bold md:text-9xl text-[90px] text-center font-outline-2 dark:text-white/60 text-[#41175f] md:py-10 pb-20 py-10 drop-shadow-[0px_10px_10px_rgba(191,100,255,0.5)]">
             YUSUF.R
           </h1>
           <motion.div
