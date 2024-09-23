@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import { Boxes } from "../ui/background-boxes";
+import { Boxes } from "../effects/background-boxes";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";

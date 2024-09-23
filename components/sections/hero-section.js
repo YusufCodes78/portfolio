@@ -9,13 +9,16 @@ import { AuroraBackground } from "../effects/aurora-background";
 import { FlipWords } from "../ui/flip-words";
 import { BsStars } from "react-icons/bs";
 import { IoColorWandSharp } from "react-icons/io5";
-import { TextHoverEffect } from "../ui/text-hover-effect";
+import { TextHoverEffect } from "../effects/text-hover-effect";
 import Particles from "@/components/magicui/particles";
-import { Spotlight } from "../ui/spotlight";
+import { Spotlight } from "../effects/spotlight";
 
 export function HeroSection() {
   return (
-    <div id="YR" className="md:h-full md:min-h-screen max-h-[50vh] w-full dark:bg-[#0b011d] bg-[#60478b] flex flex-col items-center justify-start md:justify-center">
+    <div
+      id="YR"
+      className="md:h-full md:min-h-screen max-h-[50vh] w-full dark:bg-[#0b011d] bg-[#60478b] flex flex-col items-center justify-start md:justify-center"
+    >
       <Spotlight className="animate-spotlight1 -top-32 left-0 md:left-60 md:-top-20" />
 
       {/* <Navbar className="md:bottom-2" /> */}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "../ui/grid-pattern";
+import { Grid } from "../effects/grid-pattern";
 
 const AboutSection = () => {
   return (
