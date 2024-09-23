@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { BsStars } from "react-icons/bs";
 import { IoColorWandSharp } from "react-icons/io5";
 import { Spotlight } from "../effects/spotlight";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
@@ -43,7 +44,7 @@ export function HeroSection() {
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -bottom-px -left-px shadow-2xl bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
               <div className="flex">
-                <img
+                <Image
                   src="/pen.svg"
                   loading="eager"
                   alt=""

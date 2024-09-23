@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
+import Image from "next/image";
 
 const languages = [
   {
@@ -128,7 +129,7 @@ const SkillCard = ({ img, name, type }) => {
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img
+        <Image
           className="rounded-full p-1 w-8 h-8 object-scale-down bg-white"
           alt="icons"
           src={img}

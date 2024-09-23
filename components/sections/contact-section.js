@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
+import Image from "next/image";
 
 const ContactSection = () => {
   const handleScroll = useCallback(() => {
@@ -21,7 +22,7 @@ const ContactSection = () => {
       <div className="md:min-h-[50vh] min-h-[30vh] flex  md:flex-row flex-col items-center md:justify-between justify-center">
         <div className="md:text-2xl text-xl text-white text-balance text-center relative z-20 md:pb-1 pb-5 md:flex md:items-center">
           <span className="inline-block md:p-3 px-3">
-            <img src="/hi.webp" alt="hi" className="md:w-10 w-8 md:h-10 h-8" />
+            <Image src="/hi.webp" alt="hi" className="md:w-10 w-8 md:h-10 h-8" />
           </span>
           <span>Want to get in touch? I would love to hear from you.</span>
         </div>

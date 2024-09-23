@@ -319,7 +319,7 @@ const items = [
   {
     title: "Automated member management",
     description: (
-      <span className="text-lg">We'll add and remove users for you</span>
+      <span className="text-lg">We&apos;ll add and remove users for you</span>
     ),
     header: <SkeletonTwo />,
     className: "md:col-span-1",
