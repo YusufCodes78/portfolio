@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider"
 import { CustomCursor } from "@/components/effects/custom-cursor";
 import { Navbar } from "@/components/navbar/navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange
           >
         <Navbar/>
+        <SpeedInsights />
         <CustomCursor/>
           {children}
         </ThemeProvider>
