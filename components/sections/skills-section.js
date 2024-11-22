@@ -164,7 +164,7 @@ export function SkillsSection() {
             textAnchor="middle"
             dominantBaseline="middle"
             strokeWidth="0.5"
-            className="font-[helvetica] font-bold dark:stroke-neutral-500 stroke-neutral-400 fill-transparent md:text-9xl text-6xl"
+            className="font-[helvetica] font-bold dark:stroke-neutral-500 stroke-neutral-400 fill-transparent text-9xl"
           >
             WHAT I KNOW
           </text>

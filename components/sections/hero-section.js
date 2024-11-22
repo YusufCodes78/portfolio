@@ -27,7 +27,7 @@ export function HeroSection() {
           }}
           className=""
         >
-          <h1 className="font-bold md:text-9xl text-[90px] text-center font-outline-2 dark:text-white/60 text-[#41175f] md:py-10 pb-20 py-10 drop-shadow-[0px_10px_10px_rgba(191,100,255,0.5)]">
+          <h1 className="font-bold lg:text-[250px] md:text-9xl text-7xl text-center font-outline-2 dark:text-white/60 text-[#41175f] md:py-10 pb-20 py-10 drop-shadow-[0px_10px_10px_rgba(191,100,255,0.5)]">
             YUSUF.R
           </h1>
           <motion.div
@@ -40,10 +40,10 @@ export function HeroSection() {
             }}
             className="flex items-center justify-center gap-3 flex-wrap md:w-full md:mx-auto mx-10"
           >
-            <button className="custom-button px-4 py-1.5 rounded-full relative backdrop-blur-2xl bg-[#362a51] bg-opacity-50 text-white text-sm border border-[#584878] cursor-none">
+            <button className="custom-button px-4 py-1.5 rounded-full relative backdrop-blur-2xl bg-[#362a51] bg-opacity-50 text-white lg:text-2xl md:text-sm text-sm border border-[#584878] cursor-none">
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -bottom-px -left-px shadow-2xl bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
-              <div className="flex">
+              <div className="flex items-center justify-center">
                 <Image
                   src="/pen.svg"
                   loading="eager"
@@ -55,18 +55,18 @@ export function HeroSection() {
                 <span className="px-2">Websites</span>
               </div>
             </button>
-            <button className="custom-button px-4 py-1.5 rounded-full relative backdrop-blur-2xl bg-[#362a51] bg-opacity-50 text-white text-sm border border-[#584878] cursor-none">
+            <button className="custom-button px-4 py-1.5 rounded-full relative backdrop-blur-2xl bg-[#362a51] bg-opacity-50 text-white lg:text-2xl md:text-sm text-sm border border-[#584878] cursor-none">
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -bottom-px -left-px shadow-2xl  bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
-              <div className="flex">
+              <div className="flex items-center justify-center">
                 <BsStars color="#bf64ff" size={20} className="custom-icon" />
                 <span className=" px-2">Mobile Apps</span>
               </div>
             </button>
-            <button className="custom-button px-4 py-1.5 rounded-full relative backdrop-blur-2xl bg-[#362a51] bg-opacity-50 text-white text-sm border border-[#584878] cursor-none">
+            <button className="custom-button px-4 py-1.5 rounded-full relative backdrop-blur-2xl bg-[#362a51] bg-opacity-50 text-white lg:text-2xl md:text-sm text-sm border border-[#584878] cursor-none">
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
               <div className="absolute inset-x-0 h-px w-1/2 mx-auto -bottom-px -left-px shadow-2xl  bg-gradient-to-r from-[#584878] via-[#bf64ff] to-transparent" />
-              <div className="flex">
+              <div className="flex items-center justify-center">
                 <IoColorWandSharp
                   color="#bf64ff"
                   size={20}

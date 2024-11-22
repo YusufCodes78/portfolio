@@ -73,23 +73,22 @@ const SlideBar = () => {
     >
       <Menu>
         <Tab setPosition={setPosition} onClick={() => handleScroll("YR")}>
-          
-            <MenuItem item="YR"></MenuItem>
+          <MenuItem item="YR"></MenuItem>
         </Tab>
         <Tab setPosition={setPosition} onClick={() => handleScroll("About")}>
-          
-            <MenuItem item="About"></MenuItem>
+          <MenuItem item="About"></MenuItem>
         </Tab>
         <Tab setPosition={setPosition} onClick={() => handleScroll("Work")}>
-          
-            <MenuItem item="Work"></MenuItem>
+          <MenuItem item="Work"></MenuItem>
         </Tab>
         <Tab setPosition={setPosition} onClick={() => handleScroll("Contact")}>
-          
-            <MenuItem item="Contact"></MenuItem>
+          <MenuItem item="Contact"></MenuItem>
         </Tab>
         <Tab setPosition={setPosition}>
-          <button className="border text-sm font-medium relative border-white/[0.2] text-white px-4 py-2 rounded-full hover:bg-neutral-200 hover:bg-opacity-10 cursor-none">
+          <button
+            className="border text-sm font-medium relative border-white/[0.2] text-white px-4 py-2 rounded-full hover:bg-neutral-200 hover:bg-opacity-10 cursor-none"
+            onClick={() => window.open("/YusufRashidResume.pdf")}
+          >
             <span>Resume</span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[#bf64ff] to-transparent h-[2px]" />
           </button>
@@ -143,9 +142,15 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             className="absolute top-full right-0 mt-2 shadow-lg overflow-hidden"
           >
             <ul className="py-2">
-              <MobileMenuItem onClick={() => handleScroll("YR")}>YR</MobileMenuItem>
-              <MobileMenuItem onClick={() => handleScroll("About")}>About</MobileMenuItem>
-              <MobileMenuItem onClick={() => handleScroll("Work")}>Work</MobileMenuItem>
+              <MobileMenuItem onClick={() => handleScroll("YR")}>
+                YR
+              </MobileMenuItem>
+              <MobileMenuItem onClick={() => handleScroll("About")}>
+                About
+              </MobileMenuItem>
+              <MobileMenuItem onClick={() => handleScroll("Work")}>
+                Work
+              </MobileMenuItem>
               <MobileMenuItem onClick={() => handleScroll("Contact")}>
                 Contact
               </MobileMenuItem>
@@ -205,9 +210,7 @@ const Cursor = ({ position }) => {
 const MenuItem = ({ item }) => {
   return (
     <div className="relative">
-      <p className="md:px-3 md:py-[8px] rounded-full text-white">
-        {item}
-      </p>
+      <p className="md:px-3 md:py-[8px] rounded-full text-white">{item}</p>
     </div>
   );
 };

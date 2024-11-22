@@ -7,12 +7,12 @@ import { FeatureSection } from "@/components/sections/feature-section";
 import ContactSection from "@/components/sections/contact-section";
 export default function Home() {
   return (
-    <main className="flex flex-col items-center w-full">
+    <main className="flex flex-col items-center w-full cursor-none">
       <HeroSection />
       <AboutSection />
       <SkillsSection />
       <FeatureSection />
-      <ContactSection/>
+      <ContactSection />
     </main>
   );
 }

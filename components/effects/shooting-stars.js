@@ -34,8 +34,8 @@ export const ShootingStars = ({
   const [star, setStar] = useState(null);
   const svgRef = useRef(null);
   const {theme} = useTheme();
-  const starColor = theme === "light" ? "#0b011d" : "#9E00FF";
-  const trailColor = theme === "light" ? "#41175f" : "#2EB9DF";
+  const starColor = theme === "light" ? "#ffffff" : "#9E00FF";
+  const trailColor = theme === "light" ? "#ffffff" : "#2EB9DF";
   
   useEffect(() => {
     const createStar = () => {

@@ -117,7 +117,7 @@ export const CustomCursor = () => {
     cursorOuter: {
       width: 25,
       height: 20,
-      backgroundColor: theme === "light" ? `rgba(${"191, 100, 255"}, 0.8)` : `rgba(${"96,71,139"}, 0.8)`,
+      backgroundColor: theme === "light" ? `rgba(${"255, 255, 255"}, 0.8)` : `rgba(${"96,71,139"}, 0.8)`,
       ...coreStyles,
     },
   };

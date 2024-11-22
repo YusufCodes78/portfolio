@@ -3,8 +3,8 @@ import { Grid } from "../effects/grid-pattern";
 
 const AboutSection = () => {
   return (
-    <div id="About" className="w-full md:p-24 py-16 dark:bg-[#0b011d] bg-[#60478b]">
-      <div className="relative bg-gradient-to-b dark:from-[#0b011d] dark:to-[#0b011d] from-[#60478b] to-[#60478b] p-6 overflow-hidden">
+    <div id="About" className="w-full py-24 dark:bg-[#0b011d] bg-[#60478b]">
+      <div className="relative max-w-6xl mx-auto bg-gradient-to-b dark:from-[#0b011d] dark:to-[#0b011d] from-[#60478b] to-[#60478b] p-6 overflow-hidden">
         <Grid size={50} direction={"left"} />
         <div className="md:text-xl text-lg md:p-20 text-white">
           <p>Hey, I&apos;m Yusuf.</p>
