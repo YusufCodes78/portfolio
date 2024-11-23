@@ -31,8 +31,8 @@ const ContactSection = () => {
           <span className="md:invisible block w-1"></span>
           <span>I would love to hear from you.</span>
         </div>
-        <div className="flex flex-col items-end z-20">
-          <div className="text-white ease-in duration-150 mb-2 hover:scale-125">
+        <div className="flex items-center justify-center gap-5 md:flex md:flex-col md:items-end md:gap-2 z-20">
+          <div className="text-white ease-in duration-150 hover:scale-125">
             <Link
               href={"mailto:rashidyusuf5253@gmail.com"}
               target="blank"
@@ -41,7 +41,7 @@ const ContactSection = () => {
               Gmail
             </Link>
           </div>
-          <div className="text-white ease-in duration-150 mb-2 hover:scale-125">
+          <div className="text-white ease-in duration-150 hover:scale-125">
             <Link
               href={"https://github.com/YusufCodes78"}
               target="blank"
@@ -50,7 +50,7 @@ const ContactSection = () => {
               Github
             </Link>
           </div>
-          <div className="text-white ease-in duration-150 mb-2 hover:scale-125">
+          <div className="text-white ease-in duration-150 hover:scale-125">
             <Link
               href={"https://www.linkedin.com/in/yusuf-rashid5253/"}
               target="blank"
@@ -59,7 +59,7 @@ const ContactSection = () => {
               LinkedIn
             </Link>
           </div>
-          <div className="text-white ease-in duration-150 mb-2 hover:scale-125">
+          <div className="text-white ease-in duration-150 hover:scale-125">
             <Link
               href={"https://x.com/imyr_53"}
               target="blank"
@@ -68,7 +68,7 @@ const ContactSection = () => {
               Twitter
             </Link>
           </div>
-          <div className="text-white ease-in duration-150 mb-2 hover:scale-125">
+          <div className="text-white ease-in duration-150 hover:scale-125">
             <Link
               href={"https://www.instagram.com/imyr_53/"}
               target="blank"
