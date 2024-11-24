@@ -8,6 +8,7 @@ import { IoMdClose } from "react-icons/io";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/components/ui/hooks/use-outside-click";
 import { FeatureCard } from "./feature-card";
+import { DummyContent } from "../model-content";
 
 export const Card = ({
   card,
@@ -43,7 +44,7 @@ export const Card = ({
   return (<>
     <AnimatePresence>
       {open && (
-        <div className="fixed inset-0 h-screen z-50 overflow-auto">
+        <div className="fixed inset-0 h-screen z-50 mx-3 overflow-">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -54,21 +55,21 @@ export const Card = ({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             ref={containerRef}
-            className="max-w-5xl mx-auto bg-white dark:bg-neutral-900 h-fit  z-[60] my-10 p-4 md:p-10 rounded-3xl relative">
+            className="max-w-5xl mx-auto dark:bg-[#0b011d] bg-[#60478b] h-fit  z-[60] my-10 p-4 md:p-10 rounded-3xl relative">
             <button
-              className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"
+              className="sticky top-4 h-8 w-8 right-0 ml-auto bg-white rounded-full flex items-center justify-center"
               onClick={handleClose}>
-              <IoMdClose className="h-6 w-6 text-neutral-100 dark:text-neutral-900" />
+              <IoMdClose className="h-6 w-6 text-neutral-900" />
             </button>
             <motion.p
-              className="text-2xl md:text-5xl font-semibold text-neutral-700  dark:text-white">
+              className="text-2xl md:text-5xl font-semibold text-white">
               {card.title}
             </motion.p>
             <motion.p
-              className="text-md font-medium text-black mt-4 text-balance dark:text-white">
+              className="text-lg font-medium mt-4 text-balance text-white">
               {card.description}
             </motion.p>
-            <div className="py-10">{card.content}</div>
+            <div className="py-10"><DummyContent {...card.content}/></div>
           </motion.div>
         </div>
       )}

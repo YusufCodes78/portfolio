@@ -1,81 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { Card } from "@/components/ui/model-card";
-
-const DummyContent = () => {
-  return (
-    <>
-      {/* {[...new Array(3).fill(1)].map((_, index) => { */}
-        {/* return ( */}
-          <div
-            // key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
-          >
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-medium text-neutral-700 dark:text-neutral-200">
-                This app was made for a company called &apos;Raj Electricals&apos; to manage its staff and employees. 
-              </span>
-              
-            </p>
-            <br/>
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              
-              The company was finding very hard to keep a track of the employees and their projects for work so they requested for this app. Because of this app, employee tracking with location and timers, work schedules and finishing projects has been very efficient and deal breaker for them.
-            </p>
-            <Image
-              src="/macbook.webp"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
-          </div>
-          <div
-            // key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
-          >
-            <p className="text-neutral-600 text-center dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-medium text-neutral-700 dark:text-neutral-200">
-                TASK ASSIGNMENT
-              </span>
-              
-            </p>
-            <br/>
-            
-            <Image
-              src="/macbook.webp"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
-          </div>
-          <div
-            // key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
-          >
-            <p className="text-neutral-600 text-center dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-medium text-neutral-700 dark:text-neutral-200">
-                ADMIN LOGS
-              </span>
-              
-            </p>
-            <br/>
-            
-            <Image
-              src="/macbook.webp"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
-          </div>
-         {/* ); */}
-      {/* // })} */}
-    </>
-  );
-};
 
 const projects = [
   {
@@ -85,7 +10,24 @@ const projects = [
     tech: ["Flutter"],
     src: "/project-1.png",
     link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    content: {
+      title:
+        "This app was made for a company called 'Raj Electricals' to manage its staff and employees.",
+      description:
+        "The company was finding very hard to keep a track of the employees and their projects for work so they requested for this app. Because of this app, employee tracking with location and timers, work schedules and finishing projects has been very efficient and deal breaker for them.",
+      image: "/project-1/file-1.png",
+      // features: [
+      //   {
+      //     title: "TASK MANAGEMENT",
+      //   },
+      //   {
+      //     title: "ATTENDANCE MANAGEMENT",
+      //   },
+      //   {
+      //     title: "ADMIN LOGS",
+      //   },
+      // ],
+    },
   },
   {
     title: "Jeweler Management App",
@@ -94,7 +36,24 @@ const projects = [
     tech: ["Flutter"],
     src: "/project-2.png",
     link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    content: {
+      title:
+        "Forget about remembering delicate values of gold and silver, this app will do it for you.",
+      description:
+        "It was very hard for the client to keep track of the values of gold and silver so they requested for this app. It can handle all the calculations and give precise values. It can also handle the transactions between jewellers and customers. And above all, you can connect your bluetooth weighing machine to get exact reading, and also print the receipts of the customers.",
+      image: "/project-2/file-1.png",
+      // features: [
+      //   {
+      //     title: "BLUETOOTH WEIGHT TRACKER",
+      //   },
+      //   {
+      //     title: "RECEIPT PRINTING",
+      //   },
+      //   {
+      //     title: "DAILY MODULES",
+      //   },
+      // ],
+    },
   },
   {
     title: "Tailoring App",
@@ -103,7 +62,24 @@ const projects = [
     tech: ["Flutter"],
     src: "/project-3.png",
     link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    content: {
+      title:
+        "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers.",
+      description:
+        "There are many orders that a tailor has to complete within a given time period and they also have to keep track of the measurements of the customers. This app replaced the old system of writing measurements in a book to a more modern way of entering and editing measurement details on the go. Also the current week orders can be completed with the dashboard reminders.",
+      image: "/project-3/file-1.png",
+      // features: [
+      //   {
+      //     title: "ORDER MANAGEMENT",
+      //   },
+      //   {
+      //     title: "DASHBOARD REMINDERS",
+      //   },
+      //   {
+      //     title: "PAYMENT AND DELIVERY TRACKING",
+      //   },
+      // ],
+    },
   },
   {
     title: "Location Tracker App",
@@ -112,7 +88,21 @@ const projects = [
     tech: ["Flutter"],
     src: "/project-4.png",
     link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    content: {
+      title:
+        "Keep an eye on the employees and their work schedules, and also keep track of the employees' location.",
+      description:
+        "Don't know what your employees are doing on their work visits? Track each of them with this app and also know their location and time of work. The employee can't stop the tracking as it remains active in the background.",
+      image: "/project-4/file-1.png",
+      // features: [
+      //   {
+      //     title: "LOCATION TRACKING",
+      //   },
+      //   {
+      //     title: "BACKGROUND ACTIVITY",
+      //   },
+      // ],
+    },
   },
   {
     title: "Osortoo",
@@ -121,7 +111,24 @@ const projects = [
     tech: ["Flutter"],
     src: "/project-5.png",
     link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    content: {
+      title:
+        "Arrange giveaways on the go with this app and pick a winner for your Instagram and Facebook giveaways.",
+      description:
+        "Giveaways has never been this easy before this app! Connect your social media handles and perform giveaways by picking a lucky winner from the comments of your posts. Announce directly from the app.",
+      image: "/project-5/file-1.png",
+      // features: [
+      //   {
+      //     title: "GIVEAWAY HISTORY",
+      //   },
+      //   {
+      //     title: "CUSTOMISED WINNER PICKING",
+      //   },
+      //   {
+      //     title: "SUBSCRIPTION MODEL",
+      //   },
+      // ],
+    },
   },
   {
     title: "BlackBelt Media",
@@ -129,8 +136,25 @@ const projects = [
       "Design of a digital agency to boost their presence on internet and to generate leads, using the power of Next.js and AI to create beautiful responsive pages.",
     tech: ["Next.js", "Tailwind CSS", "Typescript"],
     src: "/project-6.png",
-    link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    link: "nexustechline.vercel.app",
+    content: {
+      title:
+        "Elegant web design for a digital agency to showcase their work and services.",
+      description:
+        "This was a design project for the company called 'BlackBelt Media' to have their online presence to show their projects and works done by them and also for a professional website design. The design includes animated components on a ninja theme based design.",
+      image: "/project-6/file-2.png",
+      // features: [
+      //   {
+      //     title: "ABOUT PAGE",
+      //   },
+      //   {
+      //     title: "SERVICES PAGE",
+      //   },
+      //   {
+      //     title: "CAREERS PAGE",
+      //   },
+      // ],
+    },
   },
   {
     title: "Chat Web App",
@@ -139,7 +163,21 @@ const projects = [
     tech: ["Node.js", "Socket.io"],
     src: "/project-7.png",
     link: "https://github.com/YusufCodes78/chat-web-io",
-    content: <DummyContent />,
+    content: {
+      title:
+        "A chat app completely built with Node.js and Socket.io, with conversation pages designed in HTML and CSS.",
+      description:
+        "The project helped me understand the basics of Socket.io and how it works. Also, I built a basic chat app with the ability to create private rooms, and chat with one another or in groups. It also notifies when a user has joined or left a room.",
+      image: "/project-7/file-1.png",
+      // features: [
+      //   {
+      //     title: "PRIVATE ROOMS",
+      //   },
+      //   {
+      //     title: "PERSONAL OR GROUP CHATS",
+      //   },
+      // ],
+    },
   },
   {
     title: "Get Me A Chai",
@@ -147,19 +185,15 @@ const projects = [
       "Patreon clone which accepts payments from users and also post comments for their work.",
     tech: ["Next.js", "Tailwind CSS"],
     src: "/project-8.png",
-    link: "https://github.com/YusufCodes78",
-    content: <DummyContent />,
+    link: "https://github.com/YusufCodes78/get-me-a-chai",
+    content: {
+      title:
+        "This project was made in Next.js and helps creators accept token of appreciation from their fans in the form of payment. This project was inspired from the website patreons.",
+      description:
+        "I learnt how to make a Patreon clone in Next.js by understanding its client side and server side components. Implemented Github OAuth for authentication and Tailwind CSS for styling. Used the razorpay API to integrate secure payments. This app currently doesn't accept real payments and is in test mode only.",
+      image: "/project-8/file-1.png",
+    },
   },
-  // {
-  //   title: "Chrome Extension",
-  //   description: "description",
-  //   tech: [
-  //     "Javascript"
-  //   ],
-  //   src: "/demo.webp",
-  //   link: "https://github.com/YusufCodes78",
-  // content: <DummyContent />,
-  // },
 ];
 
 export function FeatureSection() {
