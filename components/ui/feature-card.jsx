@@ -13,13 +13,13 @@ export function FeatureCard({ title, description, tech, src, link }) {
         <Beams />
 <Noise/>
         <div className="relative z-10">
-          <div className="relative w-full h-60 md:h-80">
+          <div className="relative w-full h-60 md:h-80 overflow-hidden rounded-3xl">
 
           <Image
             src={src}
             alt="image"
             fill
-            className="rounded-3xl"
+            className="rounded-3xl hover:scale-105 ease-in duration-150 transition-all"
           />
           </div>
           <motion.div className="py-4 relative z-10">

@@ -110,7 +110,7 @@ const projects = [
     description:
       "App for tracking the location and time of employees on work. Includes reminders and background tracking.",
     tech: ["Flutter"],
-    src: "/demo.webp",
+    src: "/project-4.png",
     link: "https://github.com/YusufCodes78",
     content: <DummyContent />,
   },
@@ -119,7 +119,7 @@ const projects = [
     description:
       "An app to pick winners for a giveaway for social media like Instagram and Facebook. Works by fetching the posts and its comments to select a random winner.",
     tech: ["Flutter"],
-    src: "/demo.webp",
+    src: "/project-5.png",
     link: "https://github.com/YusufCodes78",
     content: <DummyContent />,
   },
