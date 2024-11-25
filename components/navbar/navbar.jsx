@@ -41,7 +41,7 @@ const SlideBar = () => {
   });
   const handleScroll = useCallback((sectionId) => {
     const element = document.getElementById(sectionId);
-    if (element?.id === "YR") {
+    if (element?.id === "Home") {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
@@ -72,8 +72,8 @@ const SlideBar = () => {
       className="fixed z-50 w-full mt-4 px-4 flex justify-center items-center"
     >
       <Menu>
-        <Tab setPosition={setPosition} onClick={() => handleScroll("YR")}>
-          <MenuItem item="YR"></MenuItem>
+        <Tab setPosition={setPosition} onClick={() => handleScroll("Home")}>
+          <MenuItem item="Home"></MenuItem>
         </Tab>
         <Tab setPosition={setPosition} onClick={() => handleScroll("About")}>
           <MenuItem item="About"></MenuItem>
@@ -105,7 +105,7 @@ const SlideBar = () => {
 const MobileMenu = ({ isOpen, setIsOpen }) => {
   const handleScroll = useCallback((sectionId) => {
     const element = document.getElementById(sectionId);
-    if (element?.id === "YR") {
+    if (element?.id === "Home") {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
@@ -142,8 +142,8 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
             className="absolute top-full right-0 mt-2 shadow-lg overflow-hidden"
           >
             <ul className="py-2">
-              <MobileMenuItem onClick={() => handleScroll("YR")}>
-                YR
+              <MobileMenuItem onClick={() => handleScroll("Home")}>
+                Home
               </MobileMenuItem>
               <MobileMenuItem onClick={() => handleScroll("About")}>
                 About
@@ -154,6 +154,13 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
               <MobileMenuItem onClick={() => handleScroll("Contact")}>
                 Contact
               </MobileMenuItem>
+              <button
+                className="border bg-[#41175f] text-sm font-medium relative border-white/[0.2] text-white px-4 py-3 rounded-full hover:bg-opacity-40 backdrop-blur-lg cursor-none"
+                onClick={() => window.open("/YusufRashidResume.pdf")}
+              >
+                <span>Resume</span>
+                <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[#bf64ff] to-transparent h-[2px]" />
+              </button>
             </ul>
           </motion.div>
         )}

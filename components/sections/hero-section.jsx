@@ -11,7 +11,7 @@ import Image from "next/image";
 export function HeroSection() {
   return (
     <div
-      id="YR"
+      id="Home"
       className="md:h-full md:min-h-screen max-h-[50vh] w-full dark:bg-[#0b011d] bg-[#60478b] flex flex-col items-center justify-start md:justify-center"
     >
       <Spotlight className="animate-spotlight1 -top-32 left-0 md:left-60 md:-top-20" />
