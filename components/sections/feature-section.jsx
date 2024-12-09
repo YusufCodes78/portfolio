@@ -9,7 +9,7 @@ const projects = [
       "An app to manage employees and assign tasks to them daily. Features include attendance, timer, work logs, etc.",
     tech: ["Flutter"],
     src: "/project-1.png",
-    link: "https://github.com/YusufCodes78",
+    link: "https://github.com/YusufCodes78/employee-management-app",
     content: {
       title:
         "This app was made for a company called 'Raj Electricals' to manage its staff and employees.",
@@ -35,7 +35,7 @@ const projects = [
       "App for maintaining the intricate values of gold and silver stock, and the transactions between jewellers and customers.",
     tech: ["Flutter"],
     src: "/project-2.png",
-    link: "https://github.com/YusufCodes78",
+    link: "https://github.com/YusufCodes78/jeweler-app",
     content: {
       title:
         "Forget about remembering delicate values of gold and silver, this app will do it for you.",
@@ -61,7 +61,7 @@ const projects = [
       "App for tracking customer orders, and their measurement values. Includes payment and delivery tracking.",
     tech: ["Flutter"],
     src: "/project-3.png",
-    link: "https://github.com/YusufCodes78",
+    link: "https://github.com/YusufCodes78/tailoring-app",
     content: {
       title:
         "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers.",
@@ -87,7 +87,7 @@ const projects = [
       "App for tracking the location and time of employees on work. Includes reminders and background tracking.",
     tech: ["Flutter"],
     src: "/project-4.png",
-    link: "https://github.com/YusufCodes78",
+    link: "https://github.com/YusufCodes78/location-tracker-app",
     content: {
       title:
         "Keep an eye on the employees and their work schedules, and also keep track of the employees' location.",
