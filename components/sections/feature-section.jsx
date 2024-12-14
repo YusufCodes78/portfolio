@@ -9,10 +9,10 @@ const projects = [
       "An app to manage employees and assign tasks to them daily. Features include attendance, timer, work logs, etc.",
     tech: ["Flutter"],
     src: "/project-1.png",
-    link: "https://github.com/YusufCodes78/employee-management-app",
+    link: "https://github.com/YusufCodes78",
     content: {
       title:
-        "This app was made for a company called 'Raj Electricals' to manage its staff and employees.",
+        "This app was made for a B2C company to manage its staff and employees.",
       description:
         "The company was finding very hard to keep a track of the employees and their projects for work so they requested for this app. Because of this app, employee tracking with location and timers, work schedules and finishing projects has been very efficient and deal breaker for them.",
       image: "/project-1/file-1.png",
@@ -35,7 +35,7 @@ const projects = [
       "App for maintaining the intricate values of gold and silver stock, and the transactions between jewellers and customers.",
     tech: ["Flutter"],
     src: "/project-2.png",
-    link: "https://github.com/YusufCodes78/jeweler-app",
+    link: "https://github.com/YusufCodes78",
     content: {
       title:
         "Forget about remembering delicate values of gold and silver, this app will do it for you.",
@@ -61,7 +61,7 @@ const projects = [
       "App for tracking customer orders, and their measurement values. Includes payment and delivery tracking.",
     tech: ["Flutter"],
     src: "/project-3.png",
-    link: "https://github.com/YusufCodes78/tailoring-app",
+    link: "https://github.com/YusufCodes78",
     content: {
       title:
         "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers.",
@@ -87,7 +87,7 @@ const projects = [
       "App for tracking the location and time of employees on work. Includes reminders and background tracking.",
     tech: ["Flutter"],
     src: "/project-4.png",
-    link: "https://github.com/YusufCodes78/location-tracker-app",
+    link: "https://github.com/YusufCodes78",
     content: {
       title:
         "Keep an eye on the employees and their work schedules, and also keep track of the employees' location.",
@@ -105,7 +105,7 @@ const projects = [
     },
   },
   {
-    title: "Osortoo",
+    title: "Giveaway App",
     description:
       "An app to pick winners for a giveaway for social media like Instagram and Facebook. Works by fetching the posts and its comments to select a random winner.",
     tech: ["Flutter"],
@@ -141,7 +141,7 @@ const projects = [
       title:
         "Elegant web design for a digital agency to showcase their work and services.",
       description:
-        "This was a design project for the company called 'BlackBelt Media' to have their online presence to show their projects and works done by them and also for a professional website design. The design includes animated components on a ninja theme based design.",
+        "This was a design project for a Digital Agency to have their online presence to show their projects and works done by them and also for a professional website design. The design includes animated components on a ninja theme based design.",
       image: "/project-6/file-2.png",
       // features: [
       //   {
