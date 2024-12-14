@@ -9,76 +9,43 @@ const projects = [
       "An app to manage employees and assign tasks to them daily. Features include attendance, timer, work logs, etc.",
     tech: ["Flutter"],
     src: "/project-1.png",
-    link: "https://github.com/YusufCodes78",
+    link: "",
     content: {
       title:
-        "This app was made for a B2C company to manage its staff and employees.",
+        "This app was made for a B2C company to manage its staff and employees. (Credits: Codekernel Solutions)",
       description:
         "The company was finding very hard to keep a track of the employees and their projects for work so they requested for this app. Because of this app, employee tracking with location and timers, work schedules and finishing projects has been very efficient and deal breaker for them.",
       image: "/project-1/file-1.png",
-      // features: [
-      //   {
-      //     title: "TASK MANAGEMENT",
-      //   },
-      //   {
-      //     title: "ATTENDANCE MANAGEMENT",
-      //   },
-      //   {
-      //     title: "ADMIN LOGS",
-      //   },
-      // ],
     },
   },
-  {
-    title: "Jeweler Management App",
-    description:
-      "App for maintaining the intricate values of gold and silver stock, and the transactions between jewellers and customers.",
-    tech: ["Flutter"],
-    src: "/project-2.png",
-    link: "https://github.com/YusufCodes78",
-    content: {
-      title:
-        "Forget about remembering delicate values of gold and silver, this app will do it for you.",
-      description:
-        "It was very hard for the client to keep track of the values of gold and silver so they requested for this app. It can handle all the calculations and give precise values. It can also handle the transactions between jewellers and customers. And above all, you can connect your bluetooth weighing machine to get exact reading, and also print the receipts of the customers.",
-      image: "/project-2/file-1.png",
-      // features: [
-      //   {
-      //     title: "BLUETOOTH WEIGHT TRACKER",
-      //   },
-      //   {
-      //     title: "RECEIPT PRINTING",
-      //   },
-      //   {
-      //     title: "DAILY MODULES",
-      //   },
-      // ],
-    },
-  },
+  // {
+  //   title: "Jeweler Management App",
+  //   description:
+  //     "App for maintaining the intricate values of gold and silver stock, and the transactions between jewellers and customers.",
+  //   tech: ["Flutter"],
+  //   src: "/project-2.png",
+  //   link: "",
+  //   content: {
+  //     title:
+  //       "Forget about remembering delicate values of gold and silver, this app will do it for you.",
+  //     description:
+  //       "It was very hard for the client to keep track of the values of gold and silver so they requested for this app. It can handle all the calculations and give precise values. It can also handle the transactions between jewellers and customers. And above all, you can connect your bluetooth weighing machine to get exact reading, and also print the receipts of the customers.",
+  //     image: "/project-2/file-1.png",
+  //   },
+  // },
   {
     title: "Tailoring App",
     description:
       "App for tracking customer orders, and their measurement values. Includes payment and delivery tracking.",
     tech: ["Flutter"],
     src: "/project-3.png",
-    link: "https://github.com/YusufCodes78",
+    link: "",
     content: {
       title:
-        "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers.",
+        "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers. (Credits: CodeKernel Solutions)",
       description:
         "There are many orders that a tailor has to complete within a given time period and they also have to keep track of the measurements of the customers. This app replaced the old system of writing measurements in a book to a more modern way of entering and editing measurement details on the go. Also the current week orders can be completed with the dashboard reminders.",
       image: "/project-3/file-1.png",
-      // features: [
-      //   {
-      //     title: "ORDER MANAGEMENT",
-      //   },
-      //   {
-      //     title: "DASHBOARD REMINDERS",
-      //   },
-      //   {
-      //     title: "PAYMENT AND DELIVERY TRACKING",
-      //   },
-      // ],
     },
   },
   {
@@ -87,47 +54,28 @@ const projects = [
       "App for tracking the location and time of employees on work. Includes reminders and background tracking.",
     tech: ["Flutter"],
     src: "/project-4.png",
-    link: "https://github.com/YusufCodes78",
+    link: "",
     content: {
       title:
-        "Keep an eye on the employees and their work schedules, and also keep track of the employees' location.",
+        "Keep an eye on the employees and their work schedules, and also keep track of the employees' location. (Codekernel Solutions)",
       description:
         "Don't know what your employees are doing on their work visits? Track each of them with this app and also know their location and time of work. The employee can't stop the tracking as it remains active in the background.",
       image: "/project-4/file-1.png",
-      // features: [
-      //   {
-      //     title: "LOCATION TRACKING",
-      //   },
-      //   {
-      //     title: "BACKGROUND ACTIVITY",
-      //   },
-      // ],
     },
   },
   {
     title: "Giveaway App",
     description:
-      "An app to pick winners for a giveaway for social media like Instagram and Facebook. Works by fetching the posts and its comments to select a random winner.",
+      "An app to pick winners for a giveaway for social media like Instagram and Facebook. Works by fetching the posts and its comments to select a random winner. (Credits: Oshara)",
     tech: ["Flutter"],
     src: "/project-5.png",
-    link: "https://github.com/YusufCodes78",
+    link: "",
     content: {
       title:
         "Arrange giveaways on the go with this app and pick a winner for your Instagram and Facebook giveaways.",
       description:
         "Giveaways has never been this easy before this app! Connect your social media handles and perform giveaways by picking a lucky winner from the comments of your posts. Announce directly from the app.",
       image: "/project-5/file-1.png",
-      // features: [
-      //   {
-      //     title: "GIVEAWAY HISTORY",
-      //   },
-      //   {
-      //     title: "CUSTOMISED WINNER PICKING",
-      //   },
-      //   {
-      //     title: "SUBSCRIPTION MODEL",
-      //   },
-      // ],
     },
   },
   {
@@ -143,17 +91,6 @@ const projects = [
       description:
         "This was a design project for a Digital Agency to have their online presence to show their projects and works done by them and also for a professional website design. The design includes animated components on a ninja theme based design.",
       image: "/project-6/file-2.png",
-      // features: [
-      //   {
-      //     title: "ABOUT PAGE",
-      //   },
-      //   {
-      //     title: "SERVICES PAGE",
-      //   },
-      //   {
-      //     title: "CAREERS PAGE",
-      //   },
-      // ],
     },
   },
   {
@@ -169,14 +106,6 @@ const projects = [
       description:
         "The project helped me understand the basics of Socket.io and how it works. Also, I built a basic chat app with the ability to create private rooms, and chat with one another or in groups. It also notifies when a user has joined or left a room.",
       image: "/project-7/file-1.png",
-      // features: [
-      //   {
-      //     title: "PRIVATE ROOMS",
-      //   },
-      //   {
-      //     title: "PERSONAL OR GROUP CHATS",
-      //   },
-      // ],
     },
   },
   {
