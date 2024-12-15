@@ -12,7 +12,7 @@ const projects = [
     link: "",
     content: {
       title:
-        "This app was made for a B2C company to manage its staff and employees. (Credits: Codekernel Solutions)",
+        "This app was made for a B2C company to manage its staff and employees. (Work for: Codekernel Solutions)",
       description:
         "The company was finding very hard to keep a track of the employees and their projects for work so they requested for this app. Because of this app, employee tracking with location and timers, work schedules and finishing projects has been very efficient and deal breaker for them.",
       image: "/project-1/file-1.png",
@@ -42,7 +42,7 @@ const projects = [
     link: "",
     content: {
       title:
-        "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers. (Credits: CodeKernel Solutions)",
+        "Deliver order on time, and also keep track of the measurements of the customer without the hassle of mixing it with others customers. (Work for: CodeKernel Solutions)",
       description:
         "There are many orders that a tailor has to complete within a given time period and they also have to keep track of the measurements of the customers. This app replaced the old system of writing measurements in a book to a more modern way of entering and editing measurement details on the go. Also the current week orders can be completed with the dashboard reminders.",
       image: "/project-3/file-1.png",
@@ -57,7 +57,7 @@ const projects = [
     link: "",
     content: {
       title:
-        "Keep an eye on the employees and their work schedules, and also keep track of the employees' location. (Codekernel Solutions)",
+        "Keep an eye on the employees and their work schedules, and also keep track of the employees' location. (Work for: Codekernel Solutions)",
       description:
         "Don't know what your employees are doing on their work visits? Track each of them with this app and also know their location and time of work. The employee can't stop the tracking as it remains active in the background.",
       image: "/project-4/file-1.png",
@@ -66,13 +66,13 @@ const projects = [
   {
     title: "Giveaway App",
     description:
-      "An app to pick winners for a giveaway for social media like Instagram and Facebook. Works by fetching the posts and its comments to select a random winner. (Credits: Oshara)",
+      "An app to pick winners for a giveaway for social media like Instagram and Facebook. Works by fetching the posts and its comments to select a random winner.",
     tech: ["Flutter"],
     src: "/project-5.png",
     link: "",
     content: {
       title:
-        "Arrange giveaways on the go with this app and pick a winner for your Instagram and Facebook giveaways.",
+        "Arrange giveaways on the go with this app and pick a winner for your Instagram and Facebook giveaways. (Work for: Oshara)",
       description:
         "Giveaways has never been this easy before this app! Connect your social media handles and perform giveaways by picking a lucky winner from the comments of your posts. Announce directly from the app.",
       image: "/project-5/file-1.png",
